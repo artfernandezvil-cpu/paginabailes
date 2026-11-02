@@ -1,0 +1,28 @@
+BAILES CHINOS — SITIO Y ADMINISTRACIÓN
+
+PARA VER EL DISEÑO
+Abre index.html con Chrome, Safari, Firefox o Edge.
+Este archivo también se puede subir a GitHub Pages con ese nombre exacto.
+
+PARA EDITAR Y PROBAR EL SISTEMA COMPLETO EN TU COMPUTADOR
+1. Descomprime toda esta carpeta.
+2. En Mac, abre INICIAR_MAC.command. En Windows, abre INICIAR_WINDOWS.bat.
+3. Se requiere Python 3.11 o superior. No necesitas instalar paquetes.
+4. En la primera apertura, elige tu correo y contraseña para el panel.
+5. El navegador se abrirá con la administración. Mantén abierta la ventana
+   del servidor mientras uses el sitio. Los cambios quedan en runtime/.
+
+El panel permite editar los contenidos, imágenes, colores, orden y visibilidad
+de secciones, fichas de bailes y fiestas, ubicaciones, participantes y fechas.
+También permite revisar aportes y recuperar versiones anteriores.
+
+PARA EL CLIENTE Y SU HOSTING
+El sistema completo requiere un hosting con Python WSGI, SQLite y almacenamiento
+persistente. Entrega toda la carpeta a quien administra el hosting.
+GitHub Pages publica la vista; por sí solo no ejecuta el servidor ni el panel.
+La vista descargable prepara aportes como archivos. En la instalación del
+sistema, el formulario los recibe directamente en la bandeja de revisión.
+
+Las instrucciones para el administrador están en docs/ADMINISTRACION.md.
+Las instrucciones para el hosting están en docs/PUBLICACION.md.
+No se incluye ninguna contraseña predeterminada.

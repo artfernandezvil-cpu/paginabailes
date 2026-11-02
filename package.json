@@ -1,0 +1,1 @@
+{"name":"archivo-bailes-chinos","private":true,"version":"1.0.0","scripts":{"dev":"python3 server.py","build":"python3 build.py","test":"python3 -m unittest discover -s tests -v"}}
